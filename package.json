@@ -1,0 +1,28 @@
+{
+  "name": "dicom-web-static-generator",
+  "version": "1.0.0",
+  "description": "Tool that generates DICOMWeb content responses from DICOM P10",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dicom-parser": "^1.8.7"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha --recursive --trace-warnings --unhandled-rejections=strict"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chafey/dicom-web-static-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chafey/dicom-web-static-generator/issues"
+  },
+  "homepage": "https://github.com/chafey/dicom-web-static-generator#readme"
+}
